@@ -1,9 +1,9 @@
 function fibonacci(num) {
 // your code here
-	int num1 = 0;
-	int num2 = 1;
-	int ans = 0;
-	for(let i=0;i<num;i++){
+	let num1 = 0;
+	let num2 = 1;
+	let ans = 0;
+	for(let i=1;i<=num;i++){
 	ans = num1+num2;
 		num1 = num2;
 		num2 = ans;
