@@ -1,5 +1,7 @@
 function fibonacci(num) {
 // your code here
+	if (num === 0) return 0;
+    if (num === 1) return 1;
 	let num1 = 0;
 	let num2 = 1;
 	let ans = 0;
